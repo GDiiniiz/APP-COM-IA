@@ -5,7 +5,7 @@ import { ActivityIndicator, Alert, Keyboard, Pressable, ScrollView, StyleSheet, 
 
 export default function App() {
 
-  const KEY_GPT = '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  '
+  const KEY_GPT = ' '
 
   const [loading, setLoading] = useState(false)
   const [city, setCity] = useState('')
@@ -55,7 +55,6 @@ export default function App() {
       })
   }
 
-  //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  
   return (
     <View style={styles.container}>
       <Text style={styles.heading}>
